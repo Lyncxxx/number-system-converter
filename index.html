@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number System Converter</title>
+</head>
+<body>
+    <main>
+        <h1>Number System Converter</h1>
+        <br>
+        <p>Enter a value in any field to convert int to other systems</p>
+        <div class="card">
+            <div class="card-description">
+                <div class="base-example" id="binary-example">1011</div>
+                <div>
+                    <label for="binary">Binary</label>
+                    <div class="base-description">Base 2</div>
+                </div>
+            </div>
+            <input type="number" id="binary" placeholder="Enter a binary number...">
+        </div>
+        <div class="card">
+            <div class="card-description">
+                <div class="base-example" id="decimal-example">123</div>
+                <div>
+                    <label for="decimal">Decimal</label>
+                    <div class="base-description">Base 10</div>
+                </div>
+            </div>
+            <input type="number" id="decimal" placeholder="Enter a decimal number...">
+        </div>
+        <div class="card">
+            <div class="card-description">
+                <div class="base-example" id="octal-example">17</div>
+                <div>
+                    <label for="octal">Octal</label>
+                    <div class="base-description">Base 8</div>
+                </div>
+            </div>
+            <input type="number" id="octal" placeholder="Enter a octal number...">
+        </div>
+        <div class="card">
+            <div class="card-description">
+                <div class="base-example" id="hexadecimal-example">A</div>
+                <div>
+                    <label for="hexadecimal">Hexadecimal</label>
+                    <div class="base-description">Base 16</div>
+                </div>
+            </div>
+            <input type="text" id="hexadecimal" placeholder="Enter a hexadecimal number...">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
