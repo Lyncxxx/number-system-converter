@@ -30,7 +30,7 @@ h1 {
     text-align: center;
     margin-top: 20px;
     position: relative;
-    font-size: 23px;
+    font-size: min(5vw, 2.625em);
     font-weight: 600;
     padding: 5px;
 }
@@ -51,6 +51,7 @@ p {
     text-align: center;
     color: var(--secondary-font-color);
     padding: 0px 10px;
+    font-size: clamp(16px, 2.5vw, 30px);;
 }
 
 .card {
@@ -79,7 +80,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    font-size: min(3vw, 1.125em);
+    font-size: 1.125em;
     font-weight: 600;
 }
 
@@ -158,8 +159,8 @@ input:focus {
         border-radius: 10px;
     }
 
-    h1 {
-        font-size: 42px;
+    p {
+        font-size: clamp(16px, 3vmin, 20px);
     }
 
     .card {
@@ -178,5 +179,11 @@ input:focus {
     input {
         height: 50px;
         font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 700px) and (orientation: portrait) {
+    p {
+        font-size: min(3vw, 28px);
     }
 }
