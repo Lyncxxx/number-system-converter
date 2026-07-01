@@ -2,6 +2,9 @@
 
 A simple and responsive number system converter built with **HTML**, **CSS**, and **Vanilla JavaScript**.
 
+## Live Demo
+🔗 https://lyncxxx.github.io/number-system-converter/
+
 This application allows users to convert numbers between different numeral systems in real time:
 
 * Binary (Base 2)
